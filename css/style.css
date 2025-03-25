@@ -1,9 +1,9 @@
 nav ul {
   background-color: blue;
-  list-style-type: none;
   margin: 0; 
   padding: 0; 
   overflow: hidden;
+  list-style-type: none;
 }
 
 nav ul li {
@@ -20,5 +20,29 @@ nav ul li a {
   padding: 10px 20px;
   text-decoration: none;
   text-decoration: underline overline;
+  background-color: #000;
+}
+
+#sidebar {
+  position: fixed;
+  right:0%;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+}
+
+#sidebar ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+div#sidebar-container a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
+
+#sidebar ul li a:hover {
   background-color: #000;
 }
